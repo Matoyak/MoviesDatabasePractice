@@ -111,7 +111,7 @@ namespace MoviesDatabasePractice
                 );
             });
 
-
+            SampleData.Initialize(app.ApplicationServices);
         }
 
         // Entry point for the application.

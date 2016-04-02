@@ -19,6 +19,12 @@ namespace MoviesDatabasePractice {
                 controller: MoviesDatabasePractice.Controllers.AboutController,
                 controllerAs: 'controller'
             })
+            .state('movieList', {
+                url: '/movieList',
+                templateUrl: '/ngApp/views/movieList.html',
+                controller: MoviesDatabasePractice.Controllers.MovieListController,
+                controllerAs: 'controller'
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
@@ -30,7 +36,5 @@ namespace MoviesDatabasePractice {
         // Enable HTML5 navigation
         $locationProvider.html5Mode(true);
     });
-
-    
 
 }

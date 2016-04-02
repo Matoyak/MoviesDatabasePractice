@@ -4,10 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace MoviesDatabasePractice.Models
-{
+namespace MoviesDatabasePractice.Models {
     // Add profile data for application users by adding properties to the ApplicationUser class
-    public class ApplicationUser : IdentityUser
-    {
+    public class ApplicationUser : IdentityUser {
     }
 }
